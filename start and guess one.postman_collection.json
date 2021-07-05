@@ -1,0 +1,42 @@
+{
+  "variables": [],
+  "info": {
+    "name": "start and guess one",
+    "_postman_id": "b230705f-75e5-ab52-d40d-6227b580d9f4",
+    "description": "",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "start",
+      "request": {
+        "url": "",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8080/guess",
+      "request": {
+        "url": "http://localhost:8080/guess",
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"id\": 1,\n\t\"guess\": 84\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    }
+  ]
+}
